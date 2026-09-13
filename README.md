@@ -36,9 +36,9 @@
 如需提升额度，请联系实验室管理员。具体流程如下：
 
 - **注册账号并提交申请工单**
-  - 访问 MatrixLab AI（网站为：https://ai.matrix-lab.top/ ），使用学校邮箱注册账号，并完成邮箱验证。
+  - 访问 [MatrixLab AI](网站为：https://ai.matrix-lab.top/)，使用学校邮箱注册账号，并完成邮箱验证。
   - 完善账号信息，用户名必须为本人真实姓名。
-  - 查看申请流程（网站为：https://matrix-lab.top/matrixlab/join/ ）。
+  - 查看[申请流程](https://matrix-lab.top/matrixlab/join/)。
   - 创建对应工单（Issue），等待管理员审核。
 
 具体如何使用，请自行检索。
