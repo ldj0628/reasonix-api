@@ -1,5 +1,7 @@
 ﻿# Reasonix 接入 Matrix Lab 的 AI 模型服务 · 使用教程
 
+[返回手册目录](../../README.md)
+
 > 适用对象：实验室新进成员
 
 > 目标：申请实验室统一发放的 AI Token 账号，并在 Reasonix 客户端中完成 API 配置，能够正常调用 DeepSeek / Qwen 等模型。
@@ -23,7 +25,7 @@
 
 ### 1.1 连接合肥工业大学校园网
 
-实验室的 AI 网关 （网站为：https://ai.matrix-lab.top/ ） **仅限校园网访问**（有线 / 无线均可）。
+实验室的[ AI 网关](https://ai.matrix-lab.top/) **仅限校园网访问**（有线 / 无线均可）。
 
 ### 1.2 了解可用的模型与额度
 
