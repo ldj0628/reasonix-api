@@ -11,7 +11,7 @@
 ## 目录
 
 1. [前置准备](#一前置准备)
-2. [注册 MatrixLab AI 账号并申请额度](#二注册-matrixlab-AI-账号并申请额度)
+2. [注册 MatrixLab AI 账号并申请额度](#二注册-matrixlab-ai-账号并申请额度)
 3. [创建 API 密钥](#三创建-api-密钥)
 4. [下载并安装 Reasonix](#四下载并安装-reasonix)
 5. [在 Reasonix 中配置模型服务](#五在-reasonix-中配置模型服务)
