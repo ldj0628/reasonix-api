@@ -1,7 +1,6 @@
 ﻿# Reasonix 接入 Matrix Lab 的 AI 模型服务 · 使用教程
 
 > 适用对象：实验室新进成员
-
 > 目标：申请实验室统一发放的 AI Token 账号，并在 Reasonix 客户端中完成 API 配置，能够正常调用 DeepSeek / Qwen 等模型。
 
 ---
