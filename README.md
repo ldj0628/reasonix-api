@@ -2,7 +2,7 @@
 
 [返回手册目录](../../README.md)
 
-> 适用对象：实验室新进成员
+> 适用对象：实验室新进成员。
 
 > 目标：申请实验室统一发放的 AI Token 账号，并在 Reasonix 客户端中完成 API 配置，能够正常调用 DeepSeek / Qwen 等模型。
 
@@ -11,7 +11,7 @@
 ## 目录
 
 1. [前置准备](#一前置准备)
-2. [注册 MatrixLab AI 账号并申请额度](#二注册-matrixlab-账号并申请额度)
+2. [注册 MatrixLab AI 账号并申请额度](#二注册-matrixlab-AI-账号并申请额度)
 3. [创建 API 密钥](#三创建-api-密钥)
 4. [下载并安装 Reasonix](#四下载并安装-reasonix)
 5. [在 Reasonix 中配置模型服务](#五在-reasonix-中配置模型服务)
@@ -47,7 +47,7 @@
 
 ## 二、注册 MatrixLab AI 账号并申请额度
 
-1. 确认已接入校园网后，进入实验室的 [AI 网关](https://ai.matrix-lab.top/) 
+1. 确认已接入校园网后，进入实验室的 [AI 网关](https://ai.matrix-lab.top/)。
 
 2. 点击页面上的**注册**入口，按提示完成注册：
 
@@ -116,7 +116,7 @@
 
 ### 4.1 Reasonix 简介
 
-Reasonix 是一款免费开源的桌面端 AI 对话/编程助手，支持 Windows、macOS 和 Linux。
+Reasonix 是一款免费开源的桌面端 AI 对话 / 编程助手，支持 Windows、macOS 和 Linux。
 
 它本身不提供模型，而是一个「对话界面 + 连接工具」：通过填写实验室 AI 网关的地址和 API 密钥，就能在本地直接调用实验室发放的 DeepSeek、Qwen 等模型，无需打开网页、也无需任何编程基础。
 
@@ -127,7 +127,7 @@ Reasonix 是一款免费开源的桌面端 AI 对话/编程助手，支持 Windo
 
 ### 4.2 下载安装包
 
-1. 在浏览器访问[下载页](https://reasonix.io/?download=desktop#start)
+1. 在浏览器访问[下载页](https://reasonix.io/?download=desktop#start)。
 
 2. 页面会自动识别当前系统（截图示例为 Windows），**按自己电脑的系统进行下载**：
 
@@ -163,7 +163,7 @@ Reasonix 是一款免费开源的桌面端 AI 对话/编程助手，支持 Windo
 | --- | --- |
 | 自定义供应商名称 | `ai.matrix-lab`（**必须与第三步创建 API 密钥时的名称保持一致**） |
 | API 地址 | `https://ai.matrix-lab.top/v1/responses` |
-| API 格式 | `Responses (responses)`（下拉选择 response） |
+| API 格式 | `Responses (responses)`（下拉选择 responses） |
 | API Key | 粘贴第三步保存的密钥（`sk-xxxxx` 开头） |
 
 填写 API 地址时注意：
@@ -239,7 +239,7 @@ API Key 输入框默认隐藏字符，可点击右侧 👁 图标核对是否粘
 
 | 现象 | 可能原因 | 解决办法 |
 | --- | --- | --- |
-| 打不开 [AI 网关](https://ai.matrix-lab.top/)| 未连接校园网 | 连接校园网后重试 |
+| 打不开 [AI 网关](https://ai.matrix-lab.top/) | 未连接校园网 | 连接校园网后重试 |
 | 找不到注册入口 / 收不到验证邮件 | 使用了非学校邮箱 | 改用学校邮箱注册，检查垃圾邮件目录 |
 | 没有额度、模型不可用 | 工单未提交或未通过审核 | 提交工单联系实验室管理员审核 |
 | Reasonix 里模型列表拉取为空 | API 地址或格式填错 | 地址须为 `https://ai.matrix-lab.top/v1/responses`，格式选 `Responses (responses)` |
@@ -253,7 +253,7 @@ API Key 输入框默认隐藏字符，可点击右侧 👁 图标核对是否粘
 ## 九、注意事项
 
 - **密钥即身份**：密钥代表你的账号额度，请勿共享、外发或提交到代码仓库。一旦泄露，立即删除并重建。
-- **额度管理**：DeepSeek 每月 20 元额度，用完后可联系管理员提额。建议在「使用日志」中定期关注消耗。
+- **额度管理**：DeepSeek 每月 20 人民币额度，用完后可联系管理员提额。建议在「使用日志」中定期关注消耗。
 - **命名保持一致**：Reasonix 中的「自定义供应商名称」与站点「API 密钥名称」保持同名，便于日志对账与后续排查。
 - **仅限科研用途**：模型服务供实验室科研使用，请遵守学校及实验室的相关规定。
 
