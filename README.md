@@ -67,7 +67,7 @@
 
 登录后会看到站点首页：
 
-![站点首页](assets/1.site-home.png)
+![站点首页](assets/site-home.png)
 
 点击 **「前往仪表板」**。
 
@@ -75,19 +75,19 @@
 
 进入仪表板后可以看到「概览」页面，其中包含引导流程（创建 API 密钥 → 添加额度 → 发送请求）与用量、剩余额度等统计信息：
 
-![仪表板概览](assets/2.dashboard-overview.png)
+![仪表板概览](assets/dashboard-overview.png)
 
 ### 3.3 进入 API 密钥页面
 
 在左侧菜单中点击 **「API 密钥」**（也可直接点击概览页的「创建 API 密钥」按钮）。初次进入时列表为空，提示「未找到 API 密钥」：
 
-![API 密钥列表（空）](assets/3.api-key-list.png)
+![API 密钥列表（空）](assets/api-key-list.png)
 
 ### 3.4 填写创建表单
 
 点击页面右上角的 **「+ 创建 API 密钥」** 按钮，弹出创建窗口，按下表填写：
 
-![创建 API 密钥表单](assets/4.create-api-key-form.png)
+![创建 API 密钥表单](assets/create-api-key-form.png)
 
 | 字段 | 填写内容 |
 | --- | --- |
@@ -103,7 +103,7 @@
 
 创建完成后，列表中会出现刚才创建的密钥，状态为「已启用」，密钥以 `sk-xxxxx` 开头：
 
-![密钥创建成功](assets/5.api-key-created.png)
+![密钥创建成功](assets/api-key-created.png)
 
 **务必立即复制并妥善保存完整密钥（`sk-xxxxx`）**：
 
@@ -137,7 +137,7 @@ Reasonix 是一款免费开源的桌面端 AI 对话/编程助手，支持 Windo
    | macOS | 通用 DMG（Apple Silicon 与 Intel）／如遇问题可选 Apple Silicon zip、Intel zip |
    | Linux | `.deb` 安装包（Debian / Ubuntu，amd64）／Generic tar.gz |
 
-   ![下载页](assets/6.download-page.png)
+   ![下载页](assets/download-page.png)
 
 ### 4.3 安装并首次启动
 
@@ -145,7 +145,7 @@ Reasonix 是一款免费开源的桌面端 AI 对话/编程助手，支持 Windo
 
 2. 首次打开 Reasonix，界面如下，顶部提示「开始对话前，请先连接一个模型服务」，点击 **「配置模型服务」**：
 
-   ![Reasonix 主界面](assets/7.reasonix-main-ui.png)
+   ![Reasonix 主界面](assets/reasonix-main-ui.png)
 
 也可以稍后从 **设置 → 模型服务** 进入相同配置界面。
 
@@ -157,7 +157,7 @@ Reasonix 是一款免费开源的桌面端 AI 对话/编程助手，支持 Windo
 
 在「模型服务」页面点击 **「添加供应商」**，切换到 **「自定义」** 页签，按下表填写：
 
-![添加自定义供应商](assets/8.add-custom-provider.png)
+![添加自定义供应商](assets/add-custom-provider.png)
 
 | 字段 | 填写内容 |
 | --- | --- |
@@ -189,13 +189,13 @@ API Key 输入框默认隐藏字符，可点击右侧 👁 图标核对是否粘
 2. 在「模型能力 → 输入」中，勾选 **图片**。
 3. 点击 **「应用更改」**。
 
-![编辑模型 · 开启图片输入](assets/9.edit-model-image-input.png)
+![编辑模型 · 开启图片输入](assets/edit-model-image-input.png)
 
 ### 5.4 保存配置
 
 返回模型服务页面，点击底部的 **「保存更改」**：
 
-![保存更改](assets/10.save-changes.jpg)
+![保存更改](assets/save-changes.jpg)
 
 保存后，主页输入框下方的模型选择器即可看到已配置的模型（如 `deepseek-flash`）。
 
@@ -213,7 +213,7 @@ API Key 输入框默认隐藏字符，可点击右侧 👁 图标核对是否粘
 
 4. 若模型正常返回内容，说明链路已打通：
 
-   ![测试对话成功](assets/11.test-chat-success.png)
+   ![测试对话成功](assets/test-chat-success.png)
 
 此时底部状态栏会显示 Token 消耗、命中率等运行指标，可以此判断请求是否真正走通了 API。
 
@@ -229,7 +229,7 @@ API Key 输入框默认隐藏字符，可点击右侧 👁 图标核对是否粘
 
 日志中包含时间、令牌（密钥名称）、模型、Tokens、费用、耗时（首字 / 总耗时）等信息：
 
-![API 调用日志](assets/12.api-usage-log.png)
+![API 调用日志](assets/api-usage-log.png)
 
 **对账小技巧**：如果日志里没有新增记录，说明请求根本没到网关——优先检查校园网连接、API 地址是否填写完整、API 格式是否选成了 `Responses`。
 
