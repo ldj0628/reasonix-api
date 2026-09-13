@@ -25,7 +25,7 @@
 
 ### 1.1 连接合肥工业大学校园网
 
-实验室的[ AI 网关](https://ai.matrix-lab.top/) **仅限校园网访问**（有线 / 无线均可）。
+实验室的 [AI 网关](https://ai.matrix-lab.top/) **仅限校园网访问**（有线 / 无线均可）。
 
 ### 1.2 了解可用的模型与额度
 
@@ -36,7 +36,7 @@
 如需提升额度，请联系实验室管理员。具体流程如下：
 
 - **注册账号并提交申请工单**
-  - 访问 [MatrixLab AI](网站为：https://ai.matrix-lab.top/)，使用学校邮箱注册账号，并完成邮箱验证。
+  - 访问 [MatrixLab AI](https://ai.matrix-lab.top/)，使用学校邮箱注册账号，并完成邮箱验证。
   - 完善账号信息，用户名必须为本人真实姓名。
   - 查看[申请流程](https://matrix-lab.top/matrixlab/join/)。
   - 创建对应工单（Issue），等待管理员审核。
@@ -47,17 +47,17 @@
 
 ## 二、注册 MatrixLab AI 账号并申请额度
 
-1. 确认已接入校园网后，在浏览器访问： **<https://ai.matrix-lab.top/>**
+1. 确认已接入校园网后，进入实验室的 [AI 网关](https://ai.matrix-lab.top/) 
 
 2. 点击页面上的**注册**入口，按提示完成注册：
 
    - 使用**学校邮箱**注册；
-   - 完成**邮箱验证**（到邮箱中点击验证链接）；
+   - 完成**邮箱验证**；
    - 填写个人信息时，**用户名必须填写本人真实姓名**，便于管理员核对身份后发放额度。
 
 3. 注册并登录成功后，按「[1.2 了解可用的模型与额度](#12-了解可用的模型与额度)」中的流程**创建工单（Issue）**，说明所需模型与用途，等待管理员审核。
 
-4. 审核通过后，账号即具备可用额度，可以进入下一步创建密钥。
+4. 审核通过后，账号具备可用额度，可以进入下一步创建密钥。
 
 ---
 
@@ -127,14 +127,14 @@ Reasonix 是一款免费开源的桌面端 AI 对话/编程助手，支持 Windo
 
 ### 4.2 下载安装包
 
-1. 在浏览器访问下载页：**<https://reasonix.io/?download=desktop#start>**
+1. 在浏览器访问[下载页](https://reasonix.io/?download=desktop#start)
 
-2. 页面会自动识别当前系统（截图示例为 Windows），**按自己电脑的系统与芯片版本下载**：
+2. 页面会自动识别当前系统（截图示例为 Windows），**按自己电脑的系统进行下载**：
 
    | 系统 | 下载项 |
    | --- | --- |
-   | macOS | 通用 DMG（Apple Silicon 与 Intel）／如遇问题可选 Apple Silicon zip、Intel zip |
    | Windows | 安装器（Windows 10+，x64 / ARM64）／便携版 Portable zip |
+   | macOS | 通用 DMG（Apple Silicon 与 Intel）／如遇问题可选 Apple Silicon zip、Intel zip |
    | Linux | `.deb` 安装包（Debian / Ubuntu，amd64）／Generic tar.gz |
 
    ![下载页](assets/6.download-page.png)
@@ -147,7 +147,7 @@ Reasonix 是一款免费开源的桌面端 AI 对话/编程助手，支持 Windo
 
    ![Reasonix 主界面](assets/7.reasonix-main-ui.png)
 
-   > 也可以稍后从 **设置 → 模型服务** 进入相同配置界面。
+也可以稍后从 **设置 → 模型服务** 进入相同配置界面。
 
 ---
 
@@ -215,7 +215,7 @@ API Key 输入框默认隐藏字符，可点击右侧 👁 图标核对是否粘
 
    ![测试对话成功](assets/11.test-chat-success.png)
 
-此时底部状态栏会显示 Token 消耗、命中率等运行指标，可据此判断请求是否真正走通了 API。
+此时底部状态栏会显示 Token 消耗、命中率等运行指标，可以此判断请求是否真正走通了 API。
 
 ---
 
@@ -223,7 +223,7 @@ API Key 输入框默认隐藏字符，可点击右侧 👁 图标核对是否粘
 
 想确认调用记录、Token 消耗与费用，可回到 MatrixLab 站点查看日志：
 
-1. 访问 <https://ai.matrix-lab.top/> 并登录；
+1. 访问 [AI 网关](https://ai.matrix-lab.top/)并登录；
 2. 左侧菜单 → **「使用日志」**；
 3. 可按时间范围、模型名称、分组、类型筛选，点击「搜索」查看。
 
@@ -239,7 +239,7 @@ API Key 输入框默认隐藏字符，可点击右侧 👁 图标核对是否粘
 
 | 现象 | 可能原因 | 解决办法 |
 | --- | --- | --- |
-| 打不开 `ai.matrix-lab.top` | 未连接校园网 | 连接校园网后重试 |
+| 打不开 AI网关 | 未连接校园网 | 连接校园网后重试 |
 | 找不到注册入口 / 收不到验证邮件 | 使用了非学校邮箱 | 改用学校邮箱注册，检查垃圾邮件目录 |
 | 没有额度、模型不可用 | 工单未提交或未通过审核 | 提交工单联系实验室管理员审核 |
 | Reasonix 里模型列表拉取为空 | API 地址或格式填错 | 地址须为 `https://ai.matrix-lab.top/v1/responses`，格式选 `Responses (responses)` |
