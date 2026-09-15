@@ -110,7 +110,7 @@
 
 Reasonix 是一款免费开源的桌面端 AI 对话 / 编程助手，支持 Windows、macOS 和 Linux。
 
-它本身不提供模型，而是一个「对话界面 + 连接工具」：通过填写实验室 MatrixLab AI的地址和 API 密钥，就能在本地直接调用实验室发放的 DeepSeek、Qwen 等模型，无需打开网页、也无需任何编程基础。
+它本身不提供模型，而是一个「对话界面 + 连接工具」：通过填写实验室 MatrixLab AI 的地址和 API 密钥，就能在本地直接调用实验室发放的 DeepSeek、Qwen 等模型，无需打开网页，也无需任何编程基础。
 
 对使用者而言，有两点需要牢记：
 
@@ -129,7 +129,7 @@ Reasonix 是一款免费开源的桌面端 AI 对话 / 编程助手，支持 Win
 
 1. 下载完成后双击安装，安装完成后启动 Reasonix。
 
-2. 首次打开 Reasonix，界面如下，顶部提示「开始对话前，请先连接一个模型服务」，点击 **「配置模型服务」**：
+2. 首次打开 Reasonix，界面如下，顶部提示「开始对话前，请先连接一个模型服务。」，点击 **「配置模型服务」**：
 
    ![Reasonix 主界面](assets/reasonix-main-ui.png)
 
@@ -149,7 +149,7 @@ Reasonix 是一款免费开源的桌面端 AI 对话 / 编程助手，支持 Win
 | --- | --- |
 | 自定义供应商名称 | `ai.matrix-lab`（**必须与第三步创建 API 密钥时的名称保持一致**） |
 | API 地址 | `https://ai.matrix-lab.top/v1/responses` |
-| API 格式 | `Responses (/responses)`（下拉选择 responses） |
+| API 格式 | `Responses (/responses)` |
 | API Key | 粘贴第三步保存的密钥（`sk-xxxxx` 开头） |
 
 填写 API 地址时注意：
@@ -161,7 +161,7 @@ API Key 输入框默认隐藏字符，可点击右侧 👁 图标核对是否粘
 
 ### 5.2 选择模型
 
-填写完成后，页面会提示「已获取 N 个模型」，模型列表自动拉取成功，勾选**全部模型**（示例为 3 个）：
+填写完成后，页面会提示「已获取 N 个模型」，勾选**全部模型**（示例为 3 个）：
 
 - `Qwen/Qwen3.8-27B-NVFP4-MTP-HIGH`
 - `deepseek-flash`
@@ -207,7 +207,7 @@ API Key 输入框默认隐藏字符，可点击右侧 👁 图标核对是否粘
 
 ## 七、查看 API 调用日志
 
-想确认调用记录、Token 消耗与费用，可回到 MatrixLab 站点查看日志：
+想确认调用记录、Token 消耗与费用，可回到 MatrixLab AI 查看日志：
 
 1. 访问 [MatrixLab AI](https://ai.matrix-lab.top/)并登录；
 2. 左侧菜单 → **「使用日志」**；
