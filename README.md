@@ -47,7 +47,7 @@
    - 使用**学校邮箱**注册，并完成**邮箱验证**；
    - 完善账号信息，**用户名必须填写本人真实姓名**，便于管理员核对身份后发放额度。
 
-3. 注册并登录成功后，查看 [申请流程](https://matrix-lab.top/matrixlab/join/) ，创建对应工单（Issue），等待管理员审核。
+3. 注册并登录成功后，查看[申请流程](https://matrix-lab.top/matrixlab/join/)，创建对应工单（Issue），等待管理员审核。
 
 4. 审核通过后，账号具备可用额度，可进入下一步创建密钥。
 
@@ -119,7 +119,7 @@ Reasonix 是一款免费开源的桌面端 AI 对话 / 编程助手，支持 Win
 
 ### 4.2 下载安装包
 
-1. 在浏览器访问 [下载页](https://reasonix.io/?download=desktop#start) 。
+1. 在浏览器访问[下载页](https://reasonix.io/?download=desktop#start)。
 
 2. 页面会自动识别当前系统（示例为 Windows），**按自己电脑的系统进行下载**：
 
