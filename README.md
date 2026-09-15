@@ -3,7 +3,7 @@
 [返回手册目录](../../README.md)
 
 > 适用对象：实验室新进成员。
->
+
 > 目标：申请实验室统一发放的 AI Token 账号，并在 Reasonix 客户端中完成 API 配置，能够正常调用 DeepSeek / Qwen 等模型。
 
 ---
@@ -40,16 +40,16 @@
 
 ## 二、注册 MatrixLab AI 账号并申请额度
 
-1. 确认已接入校园网后，进入实验室的 [MatrixLab AI](https://ai.matrix-lab.top/)。
+1. 确认已连接校园网后，进入实验室的 [MatrixLab AI](https://ai.matrix-lab.top/)。
 
 2. 点击页面上的**注册**入口，按提示完成注册：
 
    - 使用**学校邮箱**注册，并完成**邮箱验证**；
    - 完善账号信息，**用户名必须填写本人真实姓名**，便于管理员核对身份后发放额度。
 
-3. 注册并登录成功后，查看[申请流程](https://matrix-lab.top/matrixlab/join/)。创建对应工单（Issue），等待管理员审核。
+3. 注册并登录成功后，查看[申请流程](https://matrix-lab.top/matrixlab/join/)，创建对应工单（Issue），等待管理员审核。
 
-4. 审核通过后，账号具备可用额度，可以进入下一步创建密钥。
+4. 审核通过后，账号具备可用额度，可进入下一步创建密钥。
 
 ---
 
@@ -110,11 +110,11 @@
 
 Reasonix 是一款免费开源的桌面端 AI 对话 / 编程助手，支持 Windows、macOS 和 Linux。
 
-它本身不提供模型，而是一个「对话界面 + 连接工具」：通过填写实验室 AI 网关的地址和 API 密钥，就能在本地直接调用实验室发放的 DeepSeek、Qwen 等模型，无需打开网页、也无需任何编程基础。
+它本身不提供模型，而是一个「对话界面 + 连接工具」：通过填写实验室 MatrixLab AI的地址和 API 密钥，就能在本地直接调用实验室发放的 DeepSeek、Qwen 等模型，无需打开网页、也无需任何编程基础。
 
 对使用者而言，有两点需要牢记：
 
-- **Reasonix 使用的是实验室统一发放的账号和额度，API 密钥即代表账号身份，严禁外传**；
+- **Reasonix 使用的是实验室统一发放的 AI Token 账号和额度，API 密钥即代表账号身份，严禁外传**；
 - **配置只需完成一次**，按照本节步骤设置完毕后，以后每次打开 Reasonix 即可直接对话，无需重复配置。
 
 ### 4.2 下载安装包
@@ -122,12 +122,6 @@ Reasonix 是一款免费开源的桌面端 AI 对话 / 编程助手，支持 Win
 1. 在浏览器访问[下载页](https://reasonix.io/?download=desktop#start)。
 
 2. 页面会自动识别当前系统（截图示例为 Windows），**按自己电脑的系统进行下载**：
-
-   | 系统 | 下载项 |
-   | --- | --- |
-   | Windows | 安装器（Windows 10+，x64 / ARM64）／便携版 Portable zip |
-   | macOS | 通用 DMG（Apple Silicon 与 Intel）／如遇问题可选 Apple Silicon zip、Intel zip |
-   | Linux | `.deb` 安装包（Debian / Ubuntu，amd64）／Generic tar.gz |
 
    ![下载页](assets/download-page.png)
 
@@ -155,7 +149,7 @@ Reasonix 是一款免费开源的桌面端 AI 对话 / 编程助手，支持 Win
 | --- | --- |
 | 自定义供应商名称 | `ai.matrix-lab`（**必须与第三步创建 API 密钥时的名称保持一致**） |
 | API 地址 | `https://ai.matrix-lab.top/v1/responses` |
-| API 格式 | `Responses (responses)`（下拉选择 responses） |
+| API 格式 | `Responses (/responses)`（下拉选择 responses） |
 | API Key | 粘贴第三步保存的密钥（`sk-xxxxx` 开头） |
 
 填写 API 地址时注意：
@@ -175,7 +169,7 @@ API Key 输入框默认隐藏字符，可点击右侧 👁 图标核对是否粘
 
 ### 5.3 为 Qwen 模型开启图片识别（可选）
 
-如果要做**图片 / 截图识别**，请为 Qwen 模型单独开启图片输入能力：
+如果要做**图片 / 截图识别**，请为 Qwen 模型开启图片输入能力（DeepSeek模型同理）：
 
 1. 点击 Qwen 模型右侧的 **「⋮」→ 编辑模型**；
 2. 在「模型能力 → 输入」中，勾选 **图片**。
@@ -203,11 +197,11 @@ API Key 输入框默认隐藏字符，可点击右侧 👁 图标核对是否粘
    你是什么模型？
    ```
 
-4. 若模型正常返回内容，说明链路已打通：
+4. 若模型正常返回内容，说明连接成功：
 
    ![测试对话成功](assets/test-chat-success.png)
 
-此时底部状态栏会显示 Token 消耗、命中率等运行指标，可以此判断请求是否真正走通了 API。
+此时底部状态栏会显示 Token 消耗、命中率等运行指标，可据此确认是否已真正连上 API。
 
 ---
 
@@ -215,15 +209,15 @@ API Key 输入框默认隐藏字符，可点击右侧 👁 图标核对是否粘
 
 想确认调用记录、Token 消耗与费用，可回到 MatrixLab 站点查看日志：
 
-1. 访问 [AI 网关](https://ai.matrix-lab.top/)并登录；
+1. 访问 [MatrixLab AI](https://ai.matrix-lab.top/)并登录；
 2. 左侧菜单 → **「使用日志」**；
 3. 可按时间范围、模型名称、分组、类型筛选，点击「搜索」查看。
 
-日志中包含时间、令牌（密钥名称）、模型、Tokens、费用、耗时（首字 / 总耗时）等信息：
+日志中包含时间、密钥名称（令牌）、模型、Tokens、费用、耗时等信息：
 
 ![API 调用日志](assets/api-usage-log.png)
 
-**对账小技巧**：如果日志里没有新增记录，说明请求根本没到网关——优先检查校园网连接、API 地址是否填写完整、API 格式是否选成了 `Responses`。
+**对账小技巧**：如果日志里没有新增记录，说明请求失败——优先检查校园网连接、API 地址是否填写完整、API 格式是否选择了 `Responses`。
 
 ---
 
@@ -231,10 +225,10 @@ API Key 输入框默认隐藏字符，可点击右侧 👁 图标核对是否粘
 
 | 现象 | 可能原因 | 解决办法 |
 | --- | --- | --- |
-| 打不开 [AI 网关](https://ai.matrix-lab.top/) | 未连接校园网 | 连接校园网后重试 |
+| 打不开 [MatrixLab AI](https://ai.matrix-lab.top/) | 未连接校园网 | 连接校园网后重试 |
 | 找不到注册入口 / 收不到验证邮件 | 使用了非学校邮箱 | 改用学校邮箱注册，检查垃圾邮件目录 |
 | 没有额度、模型不可用 | 工单未提交或未通过审核 | 提交工单联系实验室管理员审核 |
-| Reasonix 里模型列表拉取为空 | API 地址或格式填错 | 地址须为 `https://ai.matrix-lab.top/v1/responses`，格式选 `Responses (responses)` |
+| Reasonix 里模型列表拉取为空 | API 地址或格式填错 | 地址须为 `https://ai.matrix-lab.top/v1/responses`，格式选 `Responses (/responses)` |
 | 提示密钥无效 / 未授权 | 密钥复制不完整、含空格，或已删除 | 回到「API 密钥」页核对状态，必要时重新创建密钥 |
 | 对话无响应、一直转圈 | 网络不通或额度用尽 | 检查校园网；在仪表盘「概览 / 使用日志」确认剩余额度与请求记录 |
 | Qwen 模型无法识图 | 未开启图片输入能力 | 编辑模型 → 模型能力 → 勾选「图片」→ 应用更改 |
