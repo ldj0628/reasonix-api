@@ -40,14 +40,14 @@
 
 ## 二、注册 MatrixLab AI 账号并申请额度
 
-1. 确认已连接校园网后，进入实验室的 [MatrixLab AI](https://ai.matrix-lab.top/)。
+1. 确认已连接校园网后，进入实验室的 [MatrixLab AI](https://ai.matrix-lab.top/) 。
 
 2. 点击页面上的**注册**入口，按提示完成注册：
 
    - 使用**学校邮箱**注册，并完成**邮箱验证**；
    - 完善账号信息，**用户名必须填写本人真实姓名**，便于管理员核对身份后发放额度。
 
-3. 注册并登录成功后，查看[申请流程](https://matrix-lab.top/matrixlab/join/)，创建对应工单（Issue），等待管理员审核。
+3. 注册并登录成功后，查看 [申请流程](https://matrix-lab.top/matrixlab/join/) ，创建对应工单（Issue），等待管理员审核。
 
 4. 审核通过后，账号具备可用额度，可进入下一步创建密钥。
 
@@ -119,7 +119,7 @@ Reasonix 是一款免费开源的桌面端 AI 对话 / 编程助手，支持 Win
 
 ### 4.2 下载安装包
 
-1. 在浏览器访问[下载页](https://reasonix.io/?download=desktop#start)。
+1. 在浏览器访问 [下载页](https://reasonix.io/?download=desktop#start) 。
 
 2. 页面会自动识别当前系统（示例为 Windows），**按自己电脑的系统进行下载**：
 
@@ -167,7 +167,7 @@ API Key 输入框默认隐藏字符，可点击右侧 👁 图标核对是否粘
 - `deepseek-flash`
 - `deepseek-v4-pro`
 
-### 5.3 为 Qwen 模型开启图片识别（可选）
+### 5.3 为模型开启图片识别（可选）
 
 如果要做**图片 / 截图识别**，请为 Qwen 模型开启图片输入能力（DeepSeek模型同理）：
 
@@ -209,7 +209,7 @@ API Key 输入框默认隐藏字符，可点击右侧 👁 图标核对是否粘
 
 想确认调用记录、Token 消耗与费用，可回到 MatrixLab AI 查看日志：
 
-1. 访问 [MatrixLab AI](https://ai.matrix-lab.top/)并登录；
+1. 访问 [MatrixLab AI](https://ai.matrix-lab.top/) 并登录；
 2. 左侧菜单 → **「使用日志」**；
 3. 可按时间范围、模型名称、分组、类型筛选，点击「搜索」查看。
 
