@@ -121,7 +121,7 @@ Reasonix 是一款免费开源的桌面端 AI 对话 / 编程助手，支持 Win
 
 1. 在浏览器访问[下载页](https://reasonix.io/?download=desktop#start)。
 
-2. 页面会自动识别当前系统（截图示例为 Windows），**按自己电脑的系统进行下载**：
+2. 页面会自动识别当前系统（示例为 Windows），**按自己电脑的系统进行下载**：
 
    ![下载页](assets/download-page.png)
 
